@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+        <h1>Pé com Pé da EBAC</h1>
+        <div class="menu-hamburguer">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">Sobre a Loja </a>
+                    </li>
+                    <li> 
+                        <a href="#">Carrinho</a>
+                    </li>
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section id="sobre-loja ">
+        <div class="container container-flex">
+            <img  src="./imagens/lojaaaaa.jpg" alt="Prateleira de tênis">
+        <div class="container">
+            <h2>Sobre a loja</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ad enim quas ullam, deserunt quisquam, odit optio eaque accusamus exercitationem, hic aliquam dolores deleniti nisi ipsum impedit. Aliquid, corporis saepe!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis non nisi nulla officiis blanditiis. Deserunt vel tempora ut maiores ratione labore iure cum quam? Saep
+        </div>
+        </div>
+        </section >
+    <section>
+        <div class="container ">
+            <ul class="container-flex lista-sapato" >
+                <li>
+                    <img  src="./imagens/0093187TA6.avif" alt="nike preto">
+                    <img src="./imagens/FD581-0-101-1.webp" alt="nike branco, cinza, preto e vermelhor">
+                    <h3>Tênis Nike Sem Air Sem Max</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </p>
+                    <strong>R$ 250,00</strong>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./imagens/adias 11.webp" alt="adias branco">
+                    <img src="./imagens/adias 12.webp" alt="adias bege">
+                    <h3>Tênis Adidas Tédio</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    </p>
+                    <strong>R$ 280,00</strong>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./imagens/puma1.jpg" alt="puma preto e branco">
+                    <img src="./imagens/puma2.webp" alt="puma cinza">
+                    <h3>Tênis Puma Patata</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    </p>
+                    <strong>R$ 320,00</strong>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+                <li>
+                    <img src="./imagens/vans 1.jpg" alt="vans preto, cinza e branco">
+                    <img src="./imagens/vans2.webp" alt="vans brancoe preto">
+                    <h3>Tênis Vans Patati</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    </p>
+                    <strong>R$ 199,99</strong>
+                    <button type="button">Adicionar ao carrinho</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $('.menu-hamburguer').click(function() {
+            $('nav').slideToggle()
+        })
+
+        $(document).ready(function(){
+            $('#carrosel').slick()
+        })
+    </script>
+</body>
+</html>
