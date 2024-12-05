@@ -18,7 +18,7 @@
             <span></span>
         </div>
         </div>
-        <nav>
+        <nav >
             <div class="container">
                 <ul>
                     <li>
@@ -35,73 +35,74 @@
         </nav>
     </header>
     <section id="sobre-loja ">
-        <div class="container container-flex">
-            <img  src="./imagens/lojaaaaa.jpg" alt="Prateleira de tênis">
-        <div class="container">
-            <h2>Sobre a loja</h2>
+        <div class="container container-flex img" >
+            <img  src=".//nova img/lojaaaaa.jpg" alt="Prateleira de tênis">
+        <div class="text">
+            <h2 class="font">Sobre a loja</h2>
+            <span></span>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ad enim quas ullam, deserunt quisquam, odit optio eaque accusamus exercitationem, hic aliquam dolores deleniti nisi ipsum impedit. Aliquid, corporis saepe!</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis non nisi nulla officiis blanditiis. Deserunt vel tempora ut maiores ratione labore iure cum quam? Saep
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis non nisi nulla officiis blanditiis. Deserunt vel tempora ut maiores ratione labore iure cum quam?</p>
         </div>
         </div>
         </section >
     <section>
-        <div class="container ">
+        <div class="container  ">
+            <h3 class="font">Produtos</h3>
+            <span class="linha"></span>
             <ul class="container-flex lista-sapato" >
+                
                 <li>
-                    <img  src="./imagens/0093187TA6.avif" alt="nike preto">
-                    <img src="./imagens/FD581-0-101-1.webp" alt="nike branco, cinza, preto e vermelhor">
-                    <h3>Tênis Nike Sem Air Sem Max</h3>
+                    <div class="prod">
+                    <img  src="./nova img/airmax90pretobranco-84022489263d71e1f017187252846078-640-0.jpg" alt="nike preto">
+                    <h3>Tênis Nike Sem Air Max</h3>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </p>
                     <strong>R$ 250,00</strong>
                     <button type="button">Adicionar ao carrinho</button>
+                    </div>
                 </li>
                 <li>
-                    <img src="./imagens/adias 11.webp" alt="adias branco">
-                    <img src="./imagens/adias 12.webp" alt="adias bege">
+                    <div class="prod">
+                    <img src="./nova img/adias 11.jpg" alt="adias branco">
+                    
                     <h3>Tênis Adidas Tédio</h3>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     </p>
                     <strong>R$ 280,00</strong>
                     <button type="button">Adicionar ao carrinho</button>
+                    </div>
                 </li>
                 <li>
-                    <img src="./imagens/puma1.jpg" alt="puma preto e branco">
-                    <img src="./imagens/puma2.webp" alt="puma cinza">
+                    <div class="prod">
+                    <img src="./nova img/puma1.jpg" alt="puma preto e branco">
                     <h3>Tênis Puma Patata</h3>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     </p>
                     <strong>R$ 320,00</strong>
                     <button type="button">Adicionar ao carrinho</button>
+                </div>
                 </li>
                 <li>
-                    <img src="./imagens/vans 1.jpg" alt="vans preto, cinza e branco">
-                    <img src="./imagens/vans2.webp" alt="vans brancoe preto">
+                    <div class="prod">
+                    <img src="./nova img/vans 1.jpg" alt="vans preto, cinza e branco">
                     <h3>Tênis Vans Patati</h3>
                     <p>
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
                     </p>
                     <strong>R$ 199,99</strong>
                     <button type="button">Adicionar ao carrinho</button>
+                </div>
                 </li>
+            </div>
             </ul>
         </div>
     </section>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-    <script>
-        $('.menu-hamburguer').click(function() {
-            $('nav').slideToggle()
-        })
-
-        $(document).ready(function(){
-            $('#carrosel').slick()
-        })
-    </script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

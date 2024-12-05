@@ -20,15 +20,19 @@ html {
 
 header {
     background-color: #bdd6d2;
-    padding-top: 16px 0;
+    padding-top: 32px ;
     color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 header > .container{
 
     justify-content: space-between ;
     align-items: center;
-    padding-bottom:16px ;
+    padding-bottom:24px;
 }
 
 nav {
@@ -66,28 +70,35 @@ nav li a {
 
 .container-flex {
     display: flex;
+    padding-bottom: 24px;
 }
 
 #sobre-loja img {
     min-width: 400px;
-    
+}
+
+.font{
+    font-size: 32px;
+    margin: 16px 0;
+    color: #fff;
 }
 
 .lista-sapato li{
     list-style: none;
 }
-.lista-sapato li h3 {
-    margin: 16px 0;
-}
+
 .lista-sapato li img {
-    width: 250px;
-    height: 250px;
     display: grid;
     grid-template-columns: repeat(4, 23.75%) ;
     column-gap: 1%;
     row-gap: 1%;
 }
-
+img{
+    max-width: 250px;
+    min-width: 250px;
+    max-height: 250px;
+    min-height: 250px;
+}
 li button {
     display: block;
     cursor: pointer;
@@ -101,4 +112,41 @@ li button {
     margin-top: 20px ;
 }
 
+.text {
+    padding: 24px;
+    color: #fff;
+}
+
+@media screen and (max-width:640px) {
+    .lista-sapato li img {
+        display:block;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .container-flex {
+        display:block;
+    }
+
+    .prod {
+        margin-bottom: 16px;
+    }
+
+.menu-hamburguer{
+    margin-top: 8px;
+}
+}
+
+@media screen and (min-width:641px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .lista-sapato {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    }
+}
 
